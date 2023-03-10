@@ -1,0 +1,9 @@
+name: ci
+on:
+  workflow_call:
+jobs:
+  release:
+    runs-on: ubuntu-latest
+    steps:
+      - name: test
+        run: echo "some-test"
